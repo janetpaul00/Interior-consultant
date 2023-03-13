@@ -1,16 +1,17 @@
-@import url(https://fonts.googleapis.com/css?family=Lora:regular,500);
+@import url(https://fonts.googleapis.com/css?family=Lora:regular,500,700);
 @import url(https://fonts.googleapis.com/css?family=Crimson+Pro:200);
-@import url(https://fonts.googleapis.com/css?family=Poppins:300);
+@import url(https://fonts.googleapis.com/css?family=Poppins:300,400,100,200,600);
 * {
   box-sizing: border-box;
 }
 
 body {
-  background-color: black;
+  background-color: #181719;
   color: white;
   margin: 0;
   padding: 0;
   padding-inline: 10px;
+  height: 100%;
 }
 
 h1 {
@@ -57,11 +58,65 @@ p {
 }
 
 .image-container {
-  outline: 5px solid wheat;
   position: relative;
 }
 
 .room-photo {
-  max-width: 100%;
+  max-width: 90%;
   height: auto;
+}
+
+.info {
+  position: absolute;
+  background-color: #181719;
+  bottom: -17%;
+  right: 5%;
+  padding: 15px;
+  max-width: 80%;
+  box-shadow: 0px 4px 5px 4px rgba(0, 0, 0, 0.25);
+}
+
+.info-header {
+  display: flex;
+  align-items: center;
+  column-gap: 15px;
+  padding-bottom: 10px;
+}
+
+.snapshot {
+  border-radius: 50%;
+  height: auto;
+  width: 20%;
+}
+
+.name {
+  font-weight: 400;
+  font-size: 0.8rem;
+}
+
+.role {
+  font-weight: 200;
+  color: #828282;
+  font-size: 0.6rem;
+}
+
+.info-text {
+  font-family: "Lora";
+  font-weight: 700;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-family: "Poppins";
+  color: #a9a9a9;
+  padding-top: 900px;
+  padding-bottom: 20px;
+}
+
+footer span {
+  text-decoration: underline;
+  font-weight: 600;
 }
