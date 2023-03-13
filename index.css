@@ -1,8 +1,12 @@
 @import url(https://fonts.googleapis.com/css?family=Lora:regular,500,700);
 @import url(https://fonts.googleapis.com/css?family=Crimson+Pro:200);
-@import url(https://fonts.googleapis.com/css?family=Poppins:300,400,100,200,600);
+@import url(https://fonts.googleapis.com/css?family=Poppins:300,400,100,200,600,500);
 * {
   box-sizing: border-box;
+}
+
+html {
+  height: 100%;
 }
 
 body {
@@ -10,14 +14,22 @@ body {
   color: white;
   margin: 0;
   padding: 0;
-  padding-inline: 10px;
+  padding-inline: 15px;
   height: 100%;
+}
+
+.main {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 h1 {
   font-size: 2.25rem;
   font-family: "Lora", system-ui;
-  /* line-height: 46px; */
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-weight: 500;
 }
 
 nav {
@@ -31,7 +43,7 @@ nav {
 
 .logo {
   font-family: "Crimson Pro", system-ui;
-  font-size: 1.25rem;
+  font-size: 1rem;
   border: 1px solid white;
   padding-inline: 6px;
   padding-block: 10px;
@@ -39,6 +51,16 @@ nav {
 
 .material-symbols-outlined {
   font-variation-settings: "FILL" 1, "wght" 700, "GRAD" 200, "opsz" 24;
+}
+
+button {
+  border: none;
+  margin: 0;
+  padding: 0;
+  background: none;
+  cursor: pointer;
+  outline: none;
+  color: white;
 }
 
 .more {
@@ -50,11 +72,16 @@ nav {
   padding-bottom: 30px;
 }
 
+.more p {
+  font-weight: 500;
+}
+
 p {
   margin: 0;
   font-family: "Poppins";
   letter-spacing: 0.5px;
   max-width: 265px;
+  font-weight: 200;
 }
 
 .image-container {
@@ -105,17 +132,15 @@ p {
   font-weight: 700;
 }
 
-/* footer {
-  position: absolute;
-  bottom: 0;
+footer {
   width: 100%;
   text-align: center;
   font-family: "Poppins";
   color: #a9a9a9;
-  padding-top: 900px;
-  font-size: 0.7rem;
-  padding-bottom: 20px;
-} */
+  font-size: 0.9rem;
+  padding-top: 100px;
+  padding-bottom: 15px;
+}
 
 footer span {
   text-decoration: underline;
