@@ -62,7 +62,7 @@ p {
 }
 
 .room-photo {
-  max-width: 90%;
+  max-width: 100%;
   height: auto;
 }
 
@@ -105,7 +105,7 @@ p {
   font-weight: 700;
 }
 
-footer {
+/* footer {
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -113,8 +113,9 @@ footer {
   font-family: "Poppins";
   color: #a9a9a9;
   padding-top: 900px;
+  font-size: 0.7rem;
   padding-bottom: 20px;
-}
+} */
 
 footer span {
   text-decoration: underline;
