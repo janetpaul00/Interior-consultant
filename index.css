@@ -1,0 +1,67 @@
+@import url(https://fonts.googleapis.com/css?family=Lora:regular,500);
+@import url(https://fonts.googleapis.com/css?family=Crimson+Pro:200);
+@import url(https://fonts.googleapis.com/css?family=Poppins:300);
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: white;
+  margin: 0;
+  padding: 0;
+  padding-inline: 10px;
+}
+
+h1 {
+  font-size: 2.25rem;
+  font-family: "Lora", system-ui;
+  /* line-height: 46px; */
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-block: 10px;
+
+  /* background-color: blueviolet; */
+}
+
+.logo {
+  font-family: "Crimson Pro", system-ui;
+  font-size: 1.25rem;
+  border: 1px solid white;
+  padding-inline: 6px;
+  padding-block: 10px;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 1, "wght" 700, "GRAD" 200, "opsz" 24;
+}
+
+.more {
+  display: flex;
+  align-items: center;
+  padding-top: 30px;
+  column-gap: 8px;
+  /* background-color: violet; */
+  padding-bottom: 30px;
+}
+
+p {
+  margin: 0;
+  font-family: "Poppins";
+  letter-spacing: 0.5px;
+  max-width: 265px;
+}
+
+.image-container {
+  outline: 5px solid wheat;
+  position: relative;
+}
+
+.room-photo {
+  max-width: 100%;
+  height: auto;
+}
