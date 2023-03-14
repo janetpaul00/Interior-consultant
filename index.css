@@ -22,6 +22,11 @@ body {
   height: 100%;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+}
+
+.main > * {
+  outline: 5px solid black;
 }
 
 h1 {
@@ -154,11 +159,13 @@ footer span {
   }
 
   .wrapper > * {
-    outline: 5px solid black;
+    /* outline: 5px solid black; */
   }
 
   .wrapper {
     display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .text-container {
