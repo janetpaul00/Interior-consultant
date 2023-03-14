@@ -19,12 +19,25 @@
 
   <body>
     <div class="main">
-      <nav>
+      <nav class="mobile-nav">
         <div class="logo">THIS INTERIOR</div>
-        <button id="menu" onclick="menu">
+        <button id="menu" onclick="menu()">
           <span class="material-icons" style="font-size: 50px"> menu</span>
         </button>
       </nav>
+
+      <nav class="desktop-nav">
+        <div class="logo">THIS INTERIOR</div>
+        <div class="navbar">
+          <ol>
+            <li>Home</li>
+            <li>Collection</li>
+            <li>About</li>
+            <li>Contact</li>
+          </ol>
+        </div>
+      </nav>
+
       <div class="wrapper">
         <div class="text-container">
           <h1>Modern interior</h1>
