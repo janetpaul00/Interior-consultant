@@ -69,6 +69,6 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- Website [your-website.com](https://janetpaul.com/)
-- GitHub [@your-username](https://github.com/janetpaul00)
+- Website [janetpaul.com](https://janetpaul.com/)
+- GitHub [@janetpaul00](https://github.com/janetpaul00)
 
