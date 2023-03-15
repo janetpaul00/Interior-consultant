@@ -45,6 +45,10 @@ This project was fun to built. I learnt about incorporating icons to my CSS file
 
 - JavaScript, HTML and CSS on VS code!
 
+I also used the below two for images and icons.
+- [Material Icons](https://fonts.google.com/icons)
+- [Unsplash Images](https://unsplash.com/) 
+
 
 ## Features
 
@@ -52,9 +56,11 @@ This project was fun to built. I learnt about incorporating icons to my CSS file
 
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/Jymh2b2FyebRTUljkNcb) was to build an application to complete the given user stories.
 
+- Mobile first webpage
+- Different views for mobile and desktop
+- Alt text for accessibility
+- Hamburger menu is visible on mobile and clickable
 
-- [Material Icons](https://fonts.google.com/icons)
-- [Unsplash Images](https://unsplash.com/) 
 
 ## Contact
 
