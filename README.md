@@ -37,7 +37,7 @@
 
 ![screenshot](https://github.com/janetpaul00/Interior-consultant/blob/8224cbb2c1c746bf51d3e6d3521d8792e8c2a2a1/Screenshot-desktop.png)
 
-This project was fun to built, learnt about incorporation icons and was a good refresher on the onClick attribute! Also helped solidify my CSS knowledge :)
+This project was fun to built. I learnt about incorporating icons to my CSS file and was a good refresher on the onClick attribute! Also helped solidify my CSS knowledge :). Took me a good 7 hours from start to finish (timed religiously).
 
 ### Built With
 
