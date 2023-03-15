@@ -45,6 +45,7 @@ This project was fun to built. I learnt about incorporating icons to my CSS file
 
 - JavaScript, HTML and CSS on VS code!
 
+
 ## Features
 
 <!-- List the features of your application or follow the template. Don't share the figma file here :) -->
@@ -53,6 +54,7 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 
 - [Material Icons](https://fonts.google.com/icons)
+- [Unsplash Images](https://unsplash.com/) 
 
 ## Contact
 
