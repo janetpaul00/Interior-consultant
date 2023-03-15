@@ -158,7 +158,6 @@ footer span {
 
 @media (400px<width) {
   body {
-    background-color: maroon;
     padding-inline: 55px;
   }
 
