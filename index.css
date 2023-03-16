@@ -41,11 +41,34 @@ body {
 }
 
 .navbar.open {
-  display: block;
-  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  height: 100vh;
   background-color: #181719;
+  /* background-color: rebeccapurple; */
   z-index: 10;
   inset: 0;
+}
+
+.navbar ol li {
+  padding-bottom: 25px;
+}
+
+ol {
+  list-style-type: none;
+  font-family: "Poppins";
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  padding: 0;
+  font-family: "Poppins";
+}
+
+li:first-child {
+  text-decoration: underline;
+  text-underline-offset: 12px;
 }
 
 .logo {
@@ -196,7 +219,7 @@ footer span {
     margin-top: 15px;
   }
 
-  ol {
+  /* ol {
     list-style-type: none;
     font-family: "Poppins";
     color: white;
@@ -204,22 +227,17 @@ footer span {
     font-size: 18px;
     padding: 0;
     font-family: "Poppins";
-  }
+  } */
 
   .navbar {
     display: initial;
-    padding-top: 20px;
-    padding-bottom: 9px;
+    /* padding-top: 20px; */
+    /* padding-bottom: 9px; */
   }
 
   .navbar ol li {
     display: inline;
     padding-left: 75px;
-  }
-
-  li:first-child {
-    text-decoration: underline;
-    text-underline-offset: 12px;
   }
 
   li:last-child {
