@@ -184,7 +184,7 @@ footer span {
   font-weight: 600;
 }
 
-@media (400px<width) {
+@media (600px<width) {
   body {
     padding-inline: 55px;
   }
